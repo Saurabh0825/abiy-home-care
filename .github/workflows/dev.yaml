@@ -7,4 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Test Jobs on ${{github.event_name}} event"
+      - name: checkout
+        uses: actions/checkout@v4
+      - run: echo "repository checkout to the workflow ${{github.repository}}"
+      - name: Node setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: npm install --force
       
