@@ -1,0 +1,10 @@
+name: Abiy Home Care
+run-name: updated by ${{github.actor}}
+
+on: push
+jobs:
+  TEST-ABIY-APP:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Test Jobs on ${{github.event_name}} event"
+      
