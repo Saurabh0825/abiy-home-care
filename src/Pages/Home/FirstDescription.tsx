@@ -5,15 +5,18 @@ import Image from 'next/image'
 const FirstDescription = () => {
     return (
         <div>
-            <Grid container spacing={2} alignItems="center">
+            <Grid container spacing={2} alignItems="start">
                 {/* Left Section: Title and Description */}
-                <Grid size={{ xs: 12, sm: 8 }} display="flex" flexDirection="column">
-                    <Typography variant="h3" gutterBottom>
-                        Abiy Home Care
+                <Grid size={{ xs: 12, sm: 8 }} display="flex" flexDirection="column" paddingTop={10} paddingLeft={10}>
+                    <Typography variant="h2" gutterBottom>
+                        ABIY HOME CARE
                     </Typography>
-                    <Typography variant="body2">
+                    <Typography variant="h2" gutterBottom>
+                        SERVICE WITH PASSION
+                    </Typography>
+                    <Typography variant="body2" marginRight={10} sx={{maxWidth:'80%'}}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry`&pos;`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
                         into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                         release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
@@ -22,12 +25,12 @@ const FirstDescription = () => {
                 </Grid>
 
                 {/* Right Section: Image */}
-                <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="end" alignItems="center">
+                <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="end" alignItems="center" paddingTop={10} paddingRight={10}>
                     <Image
-                        src="/favicon.ico" // Replace with your image path
+                        src="/care_1.jpeg" // Replace with your image path
                         alt="Home Care Image"
-                        width={200} // Adjust width as needed
-                        height={200} // Adjust height as needed
+                        width={600} // Adjust width as needed
+                        height={400} // Adjust height as needed
                         style={{ objectFit: 'cover', borderRadius: '8px' }}
                     />
                 </Grid>
