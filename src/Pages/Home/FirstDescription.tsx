@@ -1,13 +1,14 @@
 import Grid from '@mui/material/Grid2';
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import Image from 'next/image'
+
 
 const FirstDescription = () => {
     return (
         <div>
             <Grid container spacing={2} alignItems="start">
                 {/* Left Section: Title and Description */}
-                <Grid size={{ xs: 12, sm: 8 }} display="flex" flexDirection="column" paddingTop={10} paddingLeft={10}>
+                <Grid size={{ sm: 12, md: 8 }} display="flex" flexDirection="column" paddingTop={10} paddingLeft={10}>
                     <Typography variant="h2" gutterBottom>
                         ABIY HOME CARE
                     </Typography>
@@ -22,10 +23,14 @@ const FirstDescription = () => {
                         release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                         software like Aldus PageMaker including versions of Lorem Ipsum.
                     </Typography>
+                    <Box>
+  Item 1 &vert; Item 2
+</Box>
+
                 </Grid>
 
                 {/* Right Section: Image */}
-                <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="end" alignItems="center" paddingTop={10} paddingRight={10}>
+                <Grid size={{ sm: 12, md: 4 }} display="flex" justifyContent="end" alignItems="center" paddingTop={10} paddingRight={10}>
                     <Image
                         src="/care_1.jpeg" // Replace with your image path
                         alt="Home Care Image"
