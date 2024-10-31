@@ -18,7 +18,7 @@ const HomeCards = () => {
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
-                                image='/care_1.jpeg'
+                                image='/care_2.jpg'
                                 title='Service 1'
                             />
                             <CardContent>
@@ -36,7 +36,7 @@ const HomeCards = () => {
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
-                                image='/care_1.jpeg'
+                                image='/care_3.jpg'
                                 title='Service 2'
                             />
                             <CardContent>
@@ -54,7 +54,7 @@ const HomeCards = () => {
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
-                                image='care_1.jpeg'
+                                image='care_4.jpg'
                                 title='Service 2'
                             />
                             <CardContent>
