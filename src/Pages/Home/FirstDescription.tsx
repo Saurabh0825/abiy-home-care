@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid2';
 import { Typography, Box } from '@mui/material';
-import Image from 'next/image'
+import Image from 'next/image';
 
 
 const FirstDescription = () => {
@@ -15,7 +15,7 @@ const FirstDescription = () => {
                     <Typography variant="h2" gutterBottom>
                         SERVICE WITH PASSION
                     </Typography>
-                    <Typography variant="body2" marginRight={10} sx={{maxWidth:'80%'}}>
+                    <Typography variant="body2" marginRight={10} sx={{ maxWidth: '80%' }}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
@@ -24,8 +24,8 @@ const FirstDescription = () => {
                         software like Aldus PageMaker including versions of Lorem Ipsum.
                     </Typography>
                     <Box>
-  Item 1 &vert; Item 2
-</Box>
+                        Item 1 &vert; Item 2
+                    </Box>
 
                 </Grid>
 
