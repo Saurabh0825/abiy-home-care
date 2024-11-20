@@ -37,7 +37,7 @@ const Header = () => {
             </Grid>
             <Grid container justifyContent="space-evenly" paddingRight={3}>
               <Typography>|</Typography>
-              <Link style={{textDecoration: 'None', color: 'Black'}} variant="h6" href="/schedule">Schedule</Link>
+              <Link style={{textDecoration: 'None', color: 'Black'}} variant="h6" href="/faq">FAQ</Link>
             </Grid>
           </Grid>
         </Grid>
