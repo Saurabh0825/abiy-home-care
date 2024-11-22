@@ -1,8 +1,43 @@
+"use client";
+import { useState, FormEvent } from 'react';
 import { Typography, TextField, Box, Button } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import Image from 'next/image';
 
 const ContactUs = () => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+    const [status, setStatus] = useState('');
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const formData = {
+            name,
+            email,
+            phone, 
+            message
+        };
+        setStatus('Sending...');
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const data = await res.json();
+            if (res.ok) {
+                setStatus('Message Sent Successfully!');
+            } else {
+                setStatus(data.error || 'Something went wrong');
+            }
+        } catch {
+            setStatus('Error sending message');
+        }
+    }
     return (
         <>
                 {/* Title Section */}
@@ -29,23 +64,28 @@ const ContactUs = () => {
                     </Grid>
 
                     {/* Second Column: Text Fields */}
+                    {/* <form> */}
                     <Grid size={{ xs: 12, sm: 6 }} paddingLeft={{ xs: 0, sm: 2 }}>
+                        <form onSubmit={handleSubmit}>
                         <Box sx={{ width: '80%' }} paddingBottom={3}>
-                            <TextField fullWidth label="Full Name*" id="fullname" />
+                            <TextField fullWidth label="Full Name*" id="fullname" onChange={(e) => setName(e.target.value)} required />
                         </Box>
                         <Box sx={{ width: '80%' }} paddingBottom={3}>
-                            <TextField fullWidth label="Phone Number*" id="phonenumber" />
+                            <TextField fullWidth label="Phone Number*" id="phonenumber" onChange={(e) => setPhone(e.target.value)} required/>
                         </Box>
                         <Box sx={{ width: '80%' }} paddingBottom={3}>
-                            <TextField fullWidth label="Email*" id="email" />
+                            <TextField fullWidth label="Email*" id="email" onChange={(e) => setEmail(e.target.value)} required/>
                         </Box>
                         <Box sx={{ width: '80%' }} paddingBottom={3}>
-                            <TextField fullWidth label="Description*" id="description" multiline minRows={4}/>
+                            <TextField fullWidth label="Description*" id="description" multiline minRows={4} onChange={(e) => setMessage(e.target.value)} required/>
                         </Box>
                         <Box sx={{ width: '80%' }} paddingBottom={3}>
-                        <Button fullWidth sx={{height: "20%"}} variant="contained">Send</Button>
+                        <Button type="submit" fullWidth sx={{height: "20%"}} variant="contained">Send</Button>
+                        {status && <p>{status}</p>}
                         </Box>
+                        </form>
                     </Grid>
+                    {/* </form> */}
                 </Grid>
         </>
     );
