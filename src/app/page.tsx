@@ -1,8 +1,8 @@
-import AdditionalDescription from '@/pages/Home/AdditionalDescription';
-import FirstDescription from '@/pages/Home/FirstDescription';
-import HomeCards from '@/pages/Home/HomeCards';
-import HomeContact from '@/pages/Home/HomeCotact';
-import SecondContent from '@/pages/Home/SecondContent';
+import AdditionalDescription from '@/components/Home/AdditionalDescription';
+import FirstDescription from '@/components/Home/FirstDescription';
+import HomeCards from '@/components/Home/HomeCards';
+import HomeContact from '@/components/Home/HomeCotact';
+import SecondContent from '@/components/Home/SecondContent';
 
 export default function Home() {
   return (
