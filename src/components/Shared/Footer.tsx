@@ -1,5 +1,5 @@
 import { FOOTER_BACKGROUND, BACKGROUND_COLOR } from '@/utils/constants.json';
-import FooterContent from '@/pages/Shared/FooterContent';
+import FooterContent from '@/components/Shared/FooterContent';
 const Footer = () => {
     return (
         <footer style={{backgroundColor: FOOTER_BACKGROUND, color: BACKGROUND_COLOR,
