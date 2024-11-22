@@ -38,7 +38,7 @@ async function sendEmail(
   const mailOptions = {
     from: email,
     to: process.env.RECIEVER_EMAIL,
-    subject: `Home Care Message - FROM ${name}`,
+    subject: `Home Care Message - From ${name}`,
     text: `Sender's Name: ${name}\nSender's Email is: ${email} \nSender's Phone Number: ${phone} \n\nSenders's Message\n********************\n${message}\n********************`,
   };
 
