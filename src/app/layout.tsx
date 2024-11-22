@@ -1,6 +1,6 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
-import Header from '@/Pages/Shared/Header';
-import Footer from '@/Pages/Shared/Footer';
+import Header from '@/pages/Shared/Header';
+import Footer from '@/pages/Shared/Footer';
 import {BACKGROUND_COLOR} from '@/utils/constants.json';
 
 
