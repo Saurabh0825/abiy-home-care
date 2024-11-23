@@ -14,7 +14,7 @@ const HomeCards = () => {
                     </Typography>
                 </Grid>
                 <Grid container spacing={2} minHeight={160} sx={{ flexGrow: 1 }} paddingTop={10}>
-                    <Grid display="flex" justifyContent="center" alignItems="center" size="grow">
+                    <Grid size={{xs:12, sm: 6, md: 4, lg: 4}} display="flex" justifyContent="center" alignItems="center">
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
@@ -32,7 +32,7 @@ const HomeCards = () => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid display="flex" justifyContent="center" alignItems="center">
+                    <Grid size={{xs:12, sm: 6, md: 4, lg: 4}} display="flex" justifyContent="center" alignItems="center">
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
@@ -50,7 +50,7 @@ const HomeCards = () => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid display="flex" justifyContent="center" alignItems="center" size="grow">
+                    <Grid size={{xs:12, sm: 12, md: 4, lg: 4}} display="flex" justifyContent="center" alignItems="center">
                         <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: CARD_COLOR, cursor: 'pointer' }} >
                             <CardMedia
                                 sx={{ height: 200 }}
