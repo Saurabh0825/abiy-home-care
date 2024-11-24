@@ -7,7 +7,7 @@ const AdditionalDescription = () => {
       <Grid container spacing={2} justifyContent="center">
         
         {/* Title Section */}
-        <Grid size={{xs:12}}  container justifyContent="center" paddingBottom={10} paddingTop={10}>
+        <Grid size={{xs:12}}  container justifyContent="center" paddingBottom={10} paddingTop={10} paddingLeft={{xs: 2}}>
           <Typography variant="h2">Our Service Detail Explanation</Typography>
         </Grid>
         

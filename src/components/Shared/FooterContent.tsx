@@ -49,6 +49,9 @@ const FooterContent = () => {
                     </Grid>
                 </Grid>
             </Grid>
+            <Grid display="flex" justifyContent="center" marginTop={3}>
+                <Typography>© {new Date().getFullYear()} Abiy Home Care. All rights reserved</Typography>
+            </Grid>
         </>
     );
 }
