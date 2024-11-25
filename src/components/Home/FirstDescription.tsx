@@ -8,23 +8,23 @@ const FirstDescription = () => {
         <>
             <Grid container spacing={2} alignItems="start">
                 <Grid size={{ sm: 12, md: 6 }} display="flex" flexDirection="column" paddingTop={{ sm: 10, xs: 2 }} paddingLeft={{ xs: 2, sm: 3, md: 5, lg: 10 }}>
-                    <Typography fontSize={{ lg: 60, md: 50, sm: 40, xs: 30 }} gutterBottom>
-                        ABIY HOME CARE
+                    <Typography fontSize={{ lg: 50, md: 45, sm: 40, xs: 30 }} gutterBottom>
+                        AB COMPASSIONATE HOME CARE
                     </Typography>
                     <Typography fontSize={{ lg: 50, md: 40, sm: 30, xs: 20 }} gutterBottom>
                         SERVICE WITH PASSION
                     </Typography>
                     <Typography variant="body2" paddingRight={{ sm: 2, xs: 2 }} sx={{ maxWidth: '100%', textAlign: 'justify', margin: '0 auto' }}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Welcome to <span style={{fontWeight: 'bold'}}>AB Compassionate Home Care </span>, your trusted partner in compassionate, professional home care services. We proudly serve Calgary, 
+                        Airdrie, Chestermere, Okotoks, and Cochrane, offering tailored care solutions to meet your unique needs. Whether you require
+                         assistance with daily living, nursing care, or companionship for loved ones, our dedicated team is here to provide 
+                         reliable support in the comfort of your home. At AB Compassionate Home Care, we are committed to enhancing the quality of life for individuals 
+                         and families by delivering personalized care with dignity and respect. Let us help you or your loved ones live independently and
+                          confidently contact us today to learn more about our exceptional services!
                     </Typography>
-                    <Box>
+                    {/* <Box>
                         Item 1 &vert; Item 2
-                    </Box>
+                    </Box> */}
 
                 </Grid>
 

@@ -5,52 +5,51 @@ const FooterContent = () => {
     return (
         <>
             <Grid container spacing={2} paddingLeft={{ xs: 5, sm: 7 }} paddingTop={{ xs: 3, sm: 4 }}>
-                <Typography variant="h4">ABIY HOME CARE</Typography>
+                <Typography fontSize={{lg: 30, md: 27, sm: 24, xs: 20}}>AB COMPASSIONATE HOME CARE</Typography>
             </Grid>
             <Grid container spacing={2} paddingLeft={{ xs: 5, sm: 7 }} paddingTop={{ xs: 3, sm: 4 }}>
                 <Grid container size={{ xs: 12, sm: 3 }}>
                     <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="about">About Us</Link>
+                        <Link style={{ textDecoration: 'None', color: 'White'}} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="about">ABOUT US</Link>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="contactus">Contact Us</Link>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="contactus">CONTACT US</Link>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="services">Services</Link>
-                    </Grid>
-                </Grid>
-                <Grid container size={{ xs: 12, sm: 6, md:3 }}>
-                    <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="faq">FAQ</Link>
-                    <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="contactus">Schedule Appointmnet</Link>
-                    </Grid>
-                    <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} variant="h6" href="/">Who we are</Link>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="services">SERVICES</Link>
                     </Grid>
                 </Grid>
                 <Grid container size={{ xs: 12, sm: 6, md:3 }}>
+                    <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="faq">FAQ</Link>
                     <Grid size={{ xs: 12 }}>
-                        <Typography variant="h6">+1 (548) 394-4828
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="contactus">SCHEDULE APPOINTMENT</Link>
+                    </Grid>
+                    <Grid size={{ xs: 12 }}>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/">SERVICE LOCATION</Link>
+                    </Grid>
+                </Grid>
+                <Grid container size={{ xs: 12, sm: 6, md:3 }}>
+                    <Grid size={{ xs: 12 }}>
+                        <Typography style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} >+1 (587) 889-3986
                         </Typography>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                    <Typography variant="h6">james@james.com
+                    <Typography style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}}>asheboa@yahoo.com
                     </Typography>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                    <Typography variant="h6">Abinet Tesfaye
-                    </Typography>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/">MISSION AND VISSION</Link>
                     </Grid>
                 </Grid>
                 <Grid container size={{ xs: 12, sm: 6, md:3 }}>
-                    <Typography variant="h6">Address</Typography>
+                    <Typography variant="h6">ADDRESS</Typography>
                     <Grid size={{ xs: 12 }}>
-                        <Typography variant="body2">85 James Ave<br />Calgary, AB<br />T13 U34, Canada</Typography>
+                        <Typography variant="body2">97 Redstone Ave NE<br />Calgary, AB<br />T3N 0J7, Canada</Typography>
                     </Grid>
                 </Grid>
             </Grid>
             <Grid display="flex" justifyContent="center" marginTop={3}>
-                <Typography>© {new Date().getFullYear()} Abiy Home Care. All rights reserved</Typography>
+                <Typography>© {new Date().getFullYear()} AB COMPASSIONATE HOME CARE. ALL RIGHTS RESERVED</Typography>
             </Grid>
         </>
     );

@@ -10,7 +10,7 @@ const HomeCards = () => {
                         variant="h4"
                         style={{ border: 'solid', borderWidth: 1, borderRadius: 5, paddingRight: 30, paddingLeft: 30, paddingTop: 5, marginTop: 50, backgroundColor: '#FFFFFF' }}
                     >
-                        VISION
+                        Our Services
                     </Typography>
                 </Grid>
                 <Grid container spacing={2} minHeight={160} sx={{ flexGrow: 1 }} paddingTop={10}>
@@ -23,11 +23,10 @@ const HomeCards = () => {
                             />
                             <CardContent>
                                 <Typography variant='h6'>
-                                    Service 1
+                                    Personal Care
                                 </Typography>
                                 <Typography>
-                                    industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book.
+                                We assist with bathing, grooming, dressing, oral hygiene, bathroom needs, and incontinence support, helping clients maintain their independence, personal hygiene, and dignity every day.
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -40,12 +39,11 @@ const HomeCards = () => {
                                 title='Service 2'
                             />
                             <CardContent>
-                                <Typography variant='body2'>
-                                    service 2
+                                <Typography variant='h6'>
+                                    Nursing Care
                                 </Typography>
                                 <Typography>
-                                    industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book.
+                                Our skilled nursing services include wound care, medication reminders / administration, insulin and blood glucose monitoring, and vital signs checks, ensuring comprehensive health management at home.
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -58,12 +56,11 @@ const HomeCards = () => {
                                 title='Service 2'
                             />
                             <CardContent>
-                                <Typography variant='body2'>
-                                    Service 3
+                                <Typography variant='h6'>
+                                    Companionship
                                 </Typography>
                                 <Typography>
-                                    industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book.
+                                Our caregivers provide compassionate companionship, offering support and engagement that allows your loved ones to enjoy meaningful moments while you focus on your personal responsibilities.
                                 </Typography>
                             </CardContent>
                         </Card>

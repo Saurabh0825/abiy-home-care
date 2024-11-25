@@ -1,11 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import Image from 'next/image';
-const DeleteAdditionalService = () => {
+const CompanionshipService = () => {
     return (
         <div>
             <Grid size={{ xs: 12 }} display="center" justifyContent="center" marginBottom={4} marginTop={4}>
-                <Typography fontSize={{ lg: 30, md: 25, sm: 20, xs: 15 }}>[Change] Additional Service</Typography>
+                <Typography fontSize={{ lg: 30, md: 25, sm: 20, xs: 15 }}>Companionship and Transportation Service</Typography>
             </Grid>
             <Grid container spacing={2} paddingRight={2}>
                 <Grid size={{ xs: 12, sm: 12, md: 3, lg: 3 }} paddingLeft={{ lg: 6, md: 1, xs: '20%', sm: '20%' }} paddingRight={2}>
@@ -69,18 +69,7 @@ const DeleteAdditionalService = () => {
 
                 <Grid size={{ xs: 12, sm: 12, md: 9, lg: 9 }} textAlign="justify">
                     <Typography paddingLeft={{ xs: 2 }}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                    At AB Compassionate Home Care, we offer both companionship and transportation services to ensure that our clients remain socially engaged, active, and independent. Our companionship services are designed to combat loneliness and isolation by providing your loved one with a friendly and caring presence. Whether it’s engaging in conversations, participating in hobbies, or simply spending time together, our caregivers offer meaningful interactions that promote emotional well-being. Additionally, we assist with daily tasks, ensuring clients maintain their routines with dignity and ease. We also provide transportation services to ensure that your loved one can attend doctor appointments, worship services, senior centers, or other important events. Our caregivers offer safe and reliable transportation, assisting with mobility and ensuring comfort during the journey. Whether it&apos;s for medical check-ups or social outings, we make sure your loved one stays connected to their community and continues to engage in activities that bring them joy. By combining companionship with transportation, we provide a holistic approach to care, helping your loved one live independently and enjoy a fulfilling, active lifestyle. Our goal is to ensure both physical and emotional well-being, creating a positive experience for both clients and their families.
                     </Typography>
                 </Grid>
             </Grid>
@@ -90,4 +79,4 @@ const DeleteAdditionalService = () => {
     )
 };
 
-export default DeleteAdditionalService;
+export default CompanionshipService;

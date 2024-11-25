@@ -50,9 +50,9 @@ const ContactUs = () => {
                     paddingLeft={{ xs: 1, sm: 5 }}
                     style={{ maxWidth: '600px', margin: '0 auto' }}
                 >
-                    <Typography variant="body1">Title</Typography>
+                    <Typography variant="h6">Contact Us</Typography>
                     <Typography variant="body1" paddingBottom={2}>
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the...
+                    Please fill out the form, and we’ll reach out to you via email as soon as possible to discuss your needs.
                     </Typography>
                     <Box sx={{ width: '98%', maxWidth: '600px', margin: '0 auto' }}>
                         <Image
