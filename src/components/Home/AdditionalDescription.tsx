@@ -7,12 +7,12 @@ const AdditionalDescription = () => {
       <Grid container spacing={2} justifyContent="center">
         
         {/* Title Section */}
-        <Grid size={{xs:12}}  container justifyContent="center" paddingBottom={10} paddingTop={10} paddingLeft={{xs: 2}}>
+        <Grid size={{xs:12}}  container justifyContent="center" paddingBottom={10} paddingTop={10} paddingLeft={{xs: 2}} id="service_near_you">
           <Typography fontSize={{lg: 50, md: 40, sm: 30, xs: 20}}>Compassionate Home Care Services Near You</Typography>
         </Grid>
         
         {/* Content Section */}
-        <Grid container spacing={2} justifyContent="center" paddingLeft={{ xs: '2%', sm: '5%' }}>
+        <Grid container spacing={2} justifyContent="center" paddingLeft={{ xs: '2%', sm: '5%' }} paddingRight={{xs: '2%', sm: '5%'}}>
           
           <Grid size={{xs:12, sm: 12, md:6}}>
             <Typography variant="h4" style={{paddingBottom:12}}>Our Home Care Services in Calgary, Alberta</Typography>

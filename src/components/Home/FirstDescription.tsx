@@ -20,7 +20,7 @@ const FirstDescription = () => {
                          assistance with daily living, nursing care, or companionship for loved ones, our dedicated team is here to provide 
                          reliable support in the comfort of your home. At AB Compassionate Home Care, we are committed to enhancing the quality of life for individuals 
                          and families by delivering personalized care with dignity and respect. Let us help you or your loved ones live independently and
-                          confidently contact us today to learn more about our exceptional services!
+                          confidently <a style={{color: 'blue', textDecoration: 'none'}} href="/contactus"> contact us </a> today to learn more about our exceptional services!
                     </Typography>
                     {/* <Box>
                         Item 1 &vert; Item 2

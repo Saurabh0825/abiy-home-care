@@ -25,7 +25,7 @@ const FooterContent = () => {
                         <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="contactus">SCHEDULE APPOINTMENT</Link>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/">SERVICE LOCATION</Link>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/#service_near_you">SERVICE LOCATION</Link>
                     </Grid>
                 </Grid>
                 <Grid container size={{ xs: 12, sm: 6, md:3 }}>
@@ -38,7 +38,7 @@ const FooterContent = () => {
                     </Typography>
                     </Grid>
                     <Grid size={{ xs: 12 }}>
-                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/">MISSION AND VISSION</Link>
+                        <Link style={{ textDecoration: 'None', color: 'White' }} fontSize={{lg: 21, md: 19, sm: 18, xs: 17}} href="/#mission_vision">MISSION AND VISION</Link>
                     </Grid>
                 </Grid>
                 <Grid container size={{ xs: 12, sm: 6, md:3 }}>
@@ -48,7 +48,7 @@ const FooterContent = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid display="flex" justifyContent="center" marginTop={3}>
+            <Grid display="flex" justifyContent="center" marginTop={3} paddingLeft={{xs: 5, sm: 7}} paddingRight={{xs: 3, sm: 4}}>
                 <Typography>© {new Date().getFullYear()} AB COMPASSIONATE HOME CARE. ALL RIGHTS RESERVED</Typography>
             </Grid>
         </>
