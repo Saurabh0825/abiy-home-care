@@ -23,7 +23,7 @@ const CompanionshipService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_1.jpeg'
+                                        src='/h_care_10.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -33,7 +33,7 @@ const CompanionshipService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_2.jpg'
+                                        src='/h_care_11.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -46,7 +46,7 @@ const CompanionshipService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_3.jpg'
+                                        src='/h_care_12.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -56,7 +56,7 @@ const CompanionshipService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_4.jpg'
+                                        src='/h_care_13.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}

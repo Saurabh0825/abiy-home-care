@@ -41,7 +41,7 @@ const ContactUs = () => {
     return (
         <>
             {/* Title Section */}
-            <Grid size={{ xs: 12 }} paddingTop={12} marginBottom={5} display='flex' justifyContent='center'>
+            <Grid size={{ xs: 12 }} paddingTop={{lg: 6, md: 7, sm: 4, xs: 2}} marginBottom={5} display='flex' justifyContent='center'>
                 <Typography variant='h3'>CONTACT US</Typography>
             </Grid>
             <Grid container spacing={2}>
@@ -56,7 +56,7 @@ const ContactUs = () => {
                     </Typography>
                     <Box sx={{ width: '98%', maxWidth: '600px', margin: '0 auto' }}>
                         <Image
-                            src="/care_1.jpeg"
+                            src="/h_care_19.jpg"
                             alt="Home Care Image"
                             width={600}
                             height={400}

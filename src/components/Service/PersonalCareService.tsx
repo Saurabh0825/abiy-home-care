@@ -23,7 +23,7 @@ const PersonalCareService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_1.jpeg'
+                                        src='/h_care_1.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -33,7 +33,7 @@ const PersonalCareService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_2.jpg'
+                                        src='/h_care_3.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -46,7 +46,7 @@ const PersonalCareService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_3.jpg'
+                                        src='/h_care_4.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}
@@ -56,7 +56,7 @@ const PersonalCareService = () => {
                             <Grid size={{ xs: 6, sm: 6, md: 6, lg: 6 }}>
                                 <Box>
                                     <Image
-                                        src='/care_4.jpg'
+                                        src='/h_care_5.jpg'
                                         alt="Home Care Image"
                                         width={100}
                                         height={100}

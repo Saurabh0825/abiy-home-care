@@ -31,7 +31,7 @@ const FirstDescription = () => {
                 <Grid size={{ sm: 12, md: 6 }} display="flex" justifyContent="end" alignItems="center" paddingTop={{ xs: 2, sm: 3, md: 10, lg: 10 }}>
                     <Box sx={{ maxWidth: '600px', width: '90%', margin: "0 auto" }}>
                         <Image
-                            src="/care_1.jpeg"
+                            src="/h_care_2.jpg"
                             alt="Home Care Image"
                             width={600}
                             height={400}

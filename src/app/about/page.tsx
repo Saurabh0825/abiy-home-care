@@ -16,7 +16,7 @@ const About = () => {
                 <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }} paddingLeft={{xs: 2, sm: 10}} paddingRight={{xs: 2}}>
                     <Box sx={{maxWidth: '600px', width: '95%', margin: '0 auto'}}>
                     <Image
-                        src="/care_1.jpeg"
+                        src="/h_care_21.jpg"
                         alt="Home Care Image"
                         width={400}
                         height={250}

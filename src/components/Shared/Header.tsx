@@ -6,16 +6,16 @@ import { BACKGROUND_COLOR } from "@/utils/constants.json";
 import { Typography, IconButton, Collapse, Box } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { usePathname } from "next/navigation";
+// import Image from "next/image";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname(); // Get the current route
+  const pathname = usePathname();
 
   const handleMenuToggle = () => {
     setMenuOpen((prev) => !prev);
   };
 
-  // Define styles for active and inactive links
   const activeLinkStyle: React.CSSProperties = {
     textDecoration: "none",
     color: "black",
@@ -61,6 +61,15 @@ const Header = () => {
             {pathname === "/" && <span style={activeLineStyle} />}
             Home
           </Link>
+          {/* <Box paddingTop={{ ls: 10, md: 6, sm: 4, xs: 2 }}
+            paddingLeft={{ ls: 10, md: 6, sm: 4, xs: 2 }}>
+          <Image
+          src="/AB_logo.jpg"
+          alt="LOGO"
+          width={80}
+          height={40}
+          />
+          </Box> */}
         </Grid>
 
         {/* Menu Icon for Smaller Screens */}
