@@ -4,7 +4,7 @@ import Image from 'next/image';
 const PersonalCareService = () => {
     return (
         <div>
-            <Grid size={{ xs: 12 }} display="center" justifyContent="center" marginBottom={4}>
+            <Grid size={{ xs: 12 }} display="center" justifyContent="center" marginBottom={4} id="personal_care">
                 <Typography fontSize={{ lg: 30, md: 25, sm: 20, xs: 15 }}>Personal Care</Typography>
             </Grid>
             <Grid container spacing={2} paddingRight={2}>
