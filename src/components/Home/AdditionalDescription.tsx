@@ -28,8 +28,8 @@ const AdditionalDescription = () => {
           <Grid size={{xs:12, sm:12, md:6}} paddingLeft={0}>
           <Box sx={{maxWidth:'600px', width: '90%', margin: "0 auto"}}>
             <Image 
-            alt='home-care-image'
-            src='/care_5.jpg'
+            alt='home care image'
+            src='/h_care_17.jpg'
             width={500}
             height={300}
             style={{
