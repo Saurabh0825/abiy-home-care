@@ -85,6 +85,9 @@ const ContactUs = () => {
                             <TextField fullWidth label="Description" id="message" multiline minRows={4} onChange={(e) => setMessage(e.target.value)} required />
                         </Box>
                         <Box sx={{ width: '98%' }} paddingBottom={3}>
+                            <Typography variant='caption'>By clicking send below, you consent to allow AB Compassionate Home Care to store and process the personal information submitted above to provide you the content requested.</Typography>
+                        </Box>
+                        <Box sx={{ width: '98%' }} paddingBottom={3}>
                         {!clicked ?
                         <Button type='submit' fullWidth sx={{ height: "20%" }} variant="contained" disabled={!email || !email || !email || !message}>Send</Button>
                         : <Box display='flex' justifyContent='center'> <CircularProgress /></Box>}
